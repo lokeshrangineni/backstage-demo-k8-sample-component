@@ -8,7 +8,7 @@ metadata:
     backstage.io/view-url: https://github.com/lokeshrangineni/backstage-demo-k8-sample-component/blob/main/catalog-info.yaml
     backstage.io/edit-url: https://github.com/lokeshrangineni/backstage-demo-k8-sample-component/blob/main/catalog-info.yaml
     backstage.io/source-location: url:https://github.com/lokeshrangineni/backstage-demo-k8-sample-component
-    backstage.io/techdocs-ref: url:https://github.com/lokeshrangineni/backstage-demo-k8-sample-component/blob/main/README.md
+    backstage.io/techdocs-ref: dir:.
   name: my-kubernetes-component
 spec:
   lifecycle: production
