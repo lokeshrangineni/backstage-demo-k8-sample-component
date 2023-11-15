@@ -16,3 +16,31 @@ spec:
   lifecycle: production
   owner: my-team
   type: service
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: lrangine
+spec:
+  profile:
+    displayName: Lokesh R
+    email: lokeshr@example.com
+    picture: https://example.com/staff/jenny-with-party-hat.jpeg
+  memberOf: [ ecosystem-appeng, employees ]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: ecosystem-appeng
+  description: This group represents the team eco system app engineering.
+spec:
+  type: business-unit
+  profile:
+    displayName: ecosystem-appeng
+    email: ecosystem-appeng@example.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: ops
+  children: []
+  members: [lrangine]
