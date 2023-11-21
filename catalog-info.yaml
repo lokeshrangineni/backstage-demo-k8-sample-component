@@ -1,6 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+  description: |
+    This is a backstage component created to give the demo. 
+  links:
+    - title: Janus Website
+      url: https://janus-idp.io
+    - title: Janus Showcase
+      url: https://showcase.janus-idp.io/
+    - title: Slack
+      url: https://join.slack.com/t/janus-idp/shared_invite/zt-1pxtehxom-fCFtF9rRe3vFqUiFFeAkmg
   annotations:
     backstage.io/kubernetes-id: my-kubernetes-component
     github.com/project-slug: lokeshrangineni/backstage-demo-k8-sample-component
