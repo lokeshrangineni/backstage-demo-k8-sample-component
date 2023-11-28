@@ -19,7 +19,7 @@ metadata:
     backstage.io/source-location: url:https://github.com/lokeshrangineni/backstage-demo-k8-sample-component
     tektonci/build-namespace: loki-backstage
     rhda/manifest-file-path: pom.xml
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: dir:README.md
   name: my-kubernetes-component
 spec:
   lifecycle: production
